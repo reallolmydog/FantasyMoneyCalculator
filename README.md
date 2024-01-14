@@ -1,0 +1,2 @@
+# FantasyMoneyCalculator
+mobile application
