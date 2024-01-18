@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">moneycalc</string>
+    <string name="app_text">Hello, Android!</string>
+	<string name="hyperlink"><a href="https://github.com/reallolmydog/FantasyMoneyCalculator/blob/main/Privacy%20policy">privacy policy</a></string>
+	<string name="hyperlink2"><a href="https://github.com/reallolmydog/FantasyMoneyCalculator/blob/main/End%20user%20licence%20agreement">End user license agreement</a></string>
+</resources>

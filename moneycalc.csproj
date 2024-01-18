@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname.MoneyCalc</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\layout\real_to_ingame.xml" />
+    <None Remove="Resources\mipmap-hdpi\Money.png" />
+    <None Remove="Resources\mipmap-mdpi\Money.png" />
+    <None Remove="Resources\mipmap-xhdpi\Money.png" />
+    <None Remove="Resources\mipmap-xxhdpi\Money.png" />
+    <None Remove="Resources\mipmap-xxxhdpi\Money.png" />
+  </ItemGroup>
+</Project>

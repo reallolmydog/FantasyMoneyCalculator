@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:text="Fantasy money calculator
+decimals will be rounded"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="300.0dp"
+        android:layout_height="60.0dp"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="300.0dp"
+        android:layout_height="60.0dp"
+        android:id="@+id/Gold"
+        android:hint="Gold"
+        android:layout_marginTop="10.0dp" 
+        />
+    <EditText
+        android:inputType="number"
+        android:layout_width="300.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/Silver"
+        android:hint="Silver"
+        android:layout_marginTop="10.0dp" 
+        />
+    <EditText
+        android:inputType="number"
+        android:layout_width="300.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/Copper"
+        android:hint="Copper"
+        android:layout_marginTop="10.0dp" 
+        />
+    <EditText
+        android:inputType="none|numberDecimal"
+        android:layout_width="300.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/Price"
+        android:hint="Price of bread: £"
+        android:layout_marginTop="10.0dp" 
+        />
+    <EditText
+        android:inputType="number"
+        android:layout_width="300.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/CopperBread"
+        android:hint="In game cost of bread in copper: "
+        android:layout_marginTop="10.0dp" 
+        />
+    <TextView
+        android:text="final cost:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="300.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/Money"
+        android:layout_marginTop="10.0dp" 
+        />
+    <Button
+        android:text="Calculate"
+        android:layout_width="200.0dp"
+        android:layout_height="60.0dp"
+        android:id="@+id/button" 
+        />
+    <Button
+        android:text="Currency to ingame currency calculator"
+        android:layout_width="200.0dp"
+        android:layout_height="60.0dp"
+        android:id="@+id/RealToFake" />
+    <TextView
+        android:text="@string/hyperlink"
+        android:layout_width="300.0dp"
+        android:layout_height="30.0dp"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="@string/hyperlink2"
+        android:layout_width="300.0dp"
+        android:layout_height="30.0dp"
+        android:id="@+id/textView3" />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
